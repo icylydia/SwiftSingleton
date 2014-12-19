@@ -11,12 +11,12 @@ If you are using [Alcatraz][href], itwill be able to use in there.
 
 If you arn't using Alcatraz, just type the commands below in terminal.
 
-* git clone https://github.com/icylydia/SwiftSingleton.git
-* cd SwiftSingleton
-* ./install-templates.sh
+* `git clone https://github.com/icylydia/SwiftSingleton.git`
+* `cd SwiftSingleton`
+* `./install-templates.sh`
 
 #uninstall
-* ./uninstall-templates.sh
+* `./uninstall-templates.sh`
 
 #Usage
 * When you create a new file, you can select **Swift Singleton** as follows.
