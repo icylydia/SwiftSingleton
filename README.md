@@ -1,11 +1,11 @@
-SwiftSingleton
-==============
+Swift Singleton
+===============
 
 A Xcode Template For Swift Singleton
 
 #install
 
-If you are using [Alcatraz][href], itwill be able to use in there.
+If you are using [Alcatraz][href], it will be able to use in there.
 
 [href]: https://github.com/supermarin/Alcatraz
 
