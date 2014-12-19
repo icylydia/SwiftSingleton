@@ -1,5 +1,5 @@
-SwiftSingleton
-==============
+Swift Singleton
+===============
 
 A Xcode Template For Swift Singleton
 
