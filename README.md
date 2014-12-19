@@ -20,3 +20,4 @@ If you arn't using Alcatraz, just type the commands below in terminal.
 
 #Usage
 * When you create a new file, you can select **Swift Singleton** as follows.
+![ScreenShot](https://raw.githubusercontent.com/icylydia/SwiftSingleton/master/ScreenShot.png)
