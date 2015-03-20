@@ -10,9 +10,13 @@ class ___FILEBASENAMEASIDENTIFIER___ {
 	
     class var sharedInstance: ___FILEBASENAMEASIDENTIFIER___ {
         struct Singleton {
-            static let instance = ___FILEBASENAMEASIDENTIFIER___()
+            static var onceToken : dispatch_once_t = 0
+            static var instance : ___FILEBASENAMEASIDENTIFIER___? = nil
         }
-        return Singleton.instance
+        dispatch_once(&Static.onceToken) {
+            Static.instance = ___FILEBASENAMEASIDENTIFIER___()
+        }
+        return Static.instance!
     }
 	
 }
