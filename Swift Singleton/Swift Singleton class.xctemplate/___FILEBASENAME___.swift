@@ -7,12 +7,8 @@
 //
 
 class ___FILEBASENAMEASIDENTIFIER___ {
+
+    static let sharedInstance = ___FILEBASENAMEASIDENTIFIER___()
 	
-    class var sharedInstance: ___FILEBASENAMEASIDENTIFIER___ {
-        struct Singleton {
-            static let instance = ___FILEBASENAMEASIDENTIFIER___()
-        }
-        return Singleton.instance
-    }
-	
+    private init(){}
 }
